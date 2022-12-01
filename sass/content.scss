@@ -1,73 +1,73 @@
 .normal {
-  background-color: #a6a877;
+  background-color: #a6a8775b;
 }
 
 .grass {
-  background-color: #77c850;
+  background-color: #76c8505b;
 }
 
 .fire {
-  background-color: #ee7f30;
+  background-color: #ee7f305b;
 }
 
 .water {
-  background-color: #678fee;
+  background-color: #678fee5b;
 }
 
 .electric {
-  background-color: #f7cf2e;
+  background-color: #f7cf2e5b;
 }
 
 .ice {
-  background-color: #98d5d7;
+  background-color: #98d5d75b;
 }
 
 .ground {
-  background-color: #dfbf69;
+  background-color: #dfbf695b;
 }
 
 .flying {
-  background-color: #a98ff0;
+  background-color: #a98ff05b;
 }
 
 .poison {
-  background-color: #a040a0;
+  background-color: #a040a05b;
 }
 
 .fighting {
-  background-color: #bf3029;
+  background-color: #bf30295b;
 }
 
 .psychic {
-  background-color: #f65687;
+  background-color: #f656875b;
 }
 
 .dark {
-  background-color: #725847;
+  background-color: #7258475b;
 }
 
 .rock {
-  background-color: #b8a137;
+  background-color: #b8a1375b;
 }
 
 .bug {
-  background-color: #a8b720;
+  background-color: #a8b7205b;
 }
 
 .ghost {
-  background-color: #6e5896;
+  background-color: #6e58965b;
 }
 
 .steel {
-  background-color: #b9b7cf;
+  background-color: #b9b7c75b;
 }
 
 .dragon {
-  background-color: #6f38f6;
+  background-color: #6f38f65b;
 }
 
 .fairy {
-  background-color: #f9aec7;
+  background-color: #f9aec75b;
 }
 
 .content {
@@ -78,8 +78,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: 300px;
   max-width: 100%;
-  min-height: 15rem;
+  min-height:100vh;
 
   .heading {
     color: var(--white);
@@ -112,7 +113,7 @@
 
   .pokemons {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
     list-style: none;
     padding: 0;
     margin: 0;
@@ -127,10 +128,10 @@
       // background: rgba(0,0,0,.8);
 
       .number {
-        color: #000;
-        opacity: 0.3;
+        color: var(--dark-blue);
+        opacity: 0.8;
         text-align: right;
-        font-size: 0.625rem;
+        font-size: 1rem;
       }
       .name {
         color: #fff;

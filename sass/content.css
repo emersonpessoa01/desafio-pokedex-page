@@ -1,73 +1,73 @@
 .normal {
-  background-color: #a6a877;
+  background-color: rgba(166, 168, 119, 0.3568627451);
 }
 
 .grass {
-  background-color: #77c850;
+  background-color: rgba(118, 200, 80, 0.3568627451);
 }
 
 .fire {
-  background-color: #ee7f30;
+  background-color: rgba(238, 127, 48, 0.3568627451);
 }
 
 .water {
-  background-color: #678fee;
+  background-color: rgba(103, 143, 238, 0.3568627451);
 }
 
 .electric {
-  background-color: #f7cf2e;
+  background-color: rgba(247, 207, 46, 0.3568627451);
 }
 
 .ice {
-  background-color: #98d5d7;
+  background-color: rgba(152, 213, 215, 0.3568627451);
 }
 
 .ground {
-  background-color: #dfbf69;
+  background-color: rgba(223, 191, 105, 0.3568627451);
 }
 
 .flying {
-  background-color: #a98ff0;
+  background-color: rgba(169, 143, 240, 0.3568627451);
 }
 
 .poison {
-  background-color: #a040a0;
+  background-color: rgba(160, 64, 160, 0.3568627451);
 }
 
 .fighting {
-  background-color: #bf3029;
+  background-color: rgba(191, 48, 41, 0.3568627451);
 }
 
 .psychic {
-  background-color: #f65687;
+  background-color: rgba(246, 86, 135, 0.3568627451);
 }
 
 .dark {
-  background-color: #725847;
+  background-color: rgba(114, 88, 71, 0.3568627451);
 }
 
 .rock {
-  background-color: #b8a137;
+  background-color: rgba(184, 161, 55, 0.3568627451);
 }
 
 .bug {
-  background-color: #a8b720;
+  background-color: rgba(168, 183, 32, 0.3568627451);
 }
 
 .ghost {
-  background-color: #6e5896;
+  background-color: rgba(110, 88, 150, 0.3568627451);
 }
 
 .steel {
-  background-color: #b9b7cf;
+  background-color: rgba(185, 183, 199, 0.3568627451);
 }
 
 .dragon {
-  background-color: #6f38f6;
+  background-color: rgba(111, 56, 246, 0.3568627451);
 }
 
 .fairy {
-  background-color: #f9aec7;
+  background-color: rgba(249, 174, 199, 0.3568627451);
 }
 
 .content {
@@ -78,8 +78,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: 300px;
   max-width: 100%;
-  min-height: 15rem;
+  min-height: 100vh;
 }
 .content .heading {
   color: var(--white);
@@ -117,7 +118,7 @@
 }
 .content .pokemons {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
   list-style: none;
   padding: 0;
   margin: 0;
@@ -131,10 +132,10 @@
   border-radius: 1rem;
 }
 .content .pokemons .pokemon .number {
-  color: #000;
-  opacity: 0.3;
+  color: var(--dark-blue);
+  opacity: 0.8;
   text-align: right;
-  font-size: 0.625rem;
+  font-size: 1rem;
 }
 .content .pokemons .pokemon .name {
   color: #fff;

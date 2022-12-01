@@ -18,7 +18,7 @@
 .footer .social a:hover {
   color: var(--white);
   transition: all ease 0.7s linear;
-  transform: translateY(-10px);
+  transform: scale(1.1);
 }
 .footer .credit {
   font-size: 1rem;
