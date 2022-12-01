@@ -71,16 +71,15 @@
 }
 
 .content {
-  padding: 1rem;
+  padding: 1rem 1rem 5rem;
   background: #98d5d7;
   width: 100vw;
-  height: 100vh;
   background-image: url("../image/bola-transparente1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   max-width: 100%;
-  // min-height: 300px;
+  min-height: 15rem;
 
   .heading {
     color: var(--white);
@@ -98,20 +97,16 @@
     -webkit-background-clip: text;
     background-size: 200% auto;
     animation: animate 7s linear infinite;
-    
   }
   @keyframes animate {
-    0%{
+    0% {
       background-position: 0 center;
-      
     }
-    50%{
+    50% {
       background-position: 400% center;
-      
     }
-    100%{
+    100% {
       background-position: 0 center;
-
     }
   }
 

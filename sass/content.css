@@ -71,15 +71,15 @@
 }
 
 .content {
-  padding: 1rem;
+  padding: 1rem 1rem 5rem;
   background: #98d5d7;
   width: 100vw;
-  height: 100vh;
   background-image: url("../image/bola-transparente1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   max-width: 100%;
+  min-height: 15rem;
 }
 .content .heading {
   color: var(--white);
