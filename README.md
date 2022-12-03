@@ -1,5 +1,5 @@
 # Pokedex desafio responsivo
- <p>Criado uma página pokedex totalmente responsiva consumindo apenas duas imagens da api do pokemon para desafio da NTT DATA - Dio.</p>
+ <p>Criado uma página pokedex totalmente responsiva consumindo apenas duas imagens da api para o desafio da NTT DATA - Dio.</p>
 
  ## Instalação:
 
